@@ -1,5 +1,8 @@
 <template>
+<div>
+
   <v-container>
+
     <v-layout
       text-center
       wrap
@@ -11,6 +14,11 @@
           contain
           height="200"
         ></v-img>
+      </v-flex>
+
+      <v-flex xs12>
+      <v-parallax :src="require('../assets/chicken.jpg')"
+          height="500"></v-parallax>
       </v-flex>
 
       <v-flex mb-4>
@@ -82,6 +90,7 @@
       </v-flex>
     </v-layout>
   </v-container>
+</div>
 </template>
 
 <script lang="ts">
