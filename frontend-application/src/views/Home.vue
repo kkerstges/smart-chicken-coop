@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Welcome to Vuetify" number="5"/>
+    <HelloWorld msg="Welcome to Vuetify" :number=5 />
   </div>
 </template>
 
