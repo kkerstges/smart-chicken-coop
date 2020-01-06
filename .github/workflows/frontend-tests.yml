@@ -21,6 +21,7 @@ jobs:
       working-directory: ./frontend-application
       run: |
         npm i -g @vue/cli
+        npm i null-loader -D
         npm ci
         npm run test:unit
       env:
