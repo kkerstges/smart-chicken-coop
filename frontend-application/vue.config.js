@@ -1,5 +1,5 @@
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
-    .BundleAnalyzerPlugin;
+  .BundleAnalyzerPlugin
 
 module.exports = {
   'transpileDependencies': [
@@ -7,5 +7,5 @@ module.exports = {
   ],
   configureWebpack: {
     plugins: [new BundleAnalyzerPlugin()]
-}
+  }
 }

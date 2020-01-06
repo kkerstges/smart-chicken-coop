@@ -4,6 +4,7 @@
       <v-flex xs12>
         <v-parallax :src="require('../assets/chicken.jpg')" height="500"></v-parallax>
         <h1>{{msg}}</h1>
+        <h2>{{number}}</h2>
       </v-flex>
     </v-container>
   </div>
@@ -16,7 +17,8 @@ import Prop from 'vue-property-decorator'
 
 @Component({
   props: {
-    msg: String
+    msg: String,
+    number: Number
   }
 })
 export default class HelloWorld extends Vue {
